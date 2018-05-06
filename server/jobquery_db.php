@@ -28,22 +28,6 @@
 	}
 
 
-	// Check the user's login status...
-	global $user;
-	session_start();
-	
-	// echo "Session is\n";
-	// print_r($_SESSION);
-	
-	$user = false;
-	if(isset($_SESSION['user'])) $user = $_SESSION['user'];
-
-
-
-	// CHECK IF THERE'S AN API REQUEST
-	include('api.php');
-
-
 
 	/////////////////////////////////////////////////////////////////////////////
 
@@ -129,25 +113,4 @@
 			"jobs" => $jobs
 		);
 	}
-
-
-	// LOOK UP INFORMATION FOR A PARTICULAR USER
-	function login_user(){
-
-		
-		if(!isset($_GET['e'])) {
-			echo "Username is invalid.";
-		}
-
-		// i dont know what this means but
-		start_session();
-
-		// fetch username
-		$sqluser = 'SELECT * FROM users WHERE userName = ' . $username;
-		$user = get_list($sqle);
-
-	}
-
-
-
 
