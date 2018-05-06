@@ -1,0 +1,223 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+body {
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+
+.sticky_header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 2;
+}
+
+.title {
+	font-family: Arial;
+	text-align: center;
+	background: #0071bc;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.breadcrumb_menu {
+	border-bottom: solid 2px #e6e6e6;
+	padding: 5px;
+	background-color: white;
+}
+
+.breadcrumb_menu .img {
+	height: 10px;
+	width: 10px;
+	padding-top: 10px;
+}
+
+.breadcrumb_menu .text {
+	font-family: Arial;
+	text-align: left;
+	padding-left: 10px;
+	color: #0071bc;
+	padding-bottom: 10px;
+}
+
+.JOBtitles {
+	font-family: Arial;
+	text-align: left;
+	color: black;
+	font-size: 18px;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-weight: bold;
+	padding-bottom: 7.5px;
+	text-decoration: none;
+}
+.job {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 2px #e6e6e6;
+	padding-left: 10px;
+	display: flex;
+}
+
+.Discription {
+	text-align: left;
+	color: #808080;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.s {
+	background-color: #dffaf3;
+	color: #00ab82;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 13.5px;	
+	margin-top: 15px;
+}
+
+.ns {
+	background-color: #f2f2f2;
+	color: #666666;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 13.5px;	
+	margin-top: 15px;
+}
+
+.arrow {
+	height: 10px;
+	width: 10px;
+	position: absolute;
+	right: 10px;
+	margin-top: 35px;
+}
+
+.glass {
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.JOBimg {
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+	width: 75px;
+	height: 75px;
+}
+
+.footer {
+	border-top: solid 2px #e6e6e6;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+
+
+.footerNavItem {
+	height: 80px;
+	width: 33%;
+	text-align: center;
+	float: left;
+	padding-top: 10px;
+}
+
+.footerNavItem a{
+	text-decoration: none;
+    color: #000000;
+}
+
+.footIMG{
+	height: 30px;
+	width: 30px;
+}
+
+.footTXT{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 10px;
+}
+
+.POSTimg {
+	width: 100px;
+	height: 100px;
+	padding: 20px 15px 0 20px;
+	float: left;
+}
+
+.POSTjobtitle {
+	font-family: Arial;
+	text-align: left;
+	color: black;
+	font-size: 22px;
+	padding-top: 35px;
+	font-weight: bold;
+	padding-bottom: 7.5px;
+	 
+}
+
+.POSTdisc {
+	color: #808080;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	padding: 10px 20px 20px;
+	clear: both;
+}
+
+.POSTwage {
+	color: #00ab82;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	padding-left: 10px;
+	padding-top: 3px;
+}
+
+.POSTlocation {
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	padding-left: 10px;
+}
+
+.text {
+	font-family: Arial;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #808080;
+}
+
+.heading {
+	font-family: Arial;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.location {
+	align-self: right;
+	color: #808080;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}

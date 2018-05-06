@@ -1,0 +1,46 @@
+.JOBtitles {
+	font-family: Arial;
+	text-align: left;
+	color: black;
+	font-size: 18px;
+}
+.job {
+	padding-bottom: 30px;
+	border-bottom: solid 2px #e6e6e6;
+	padding-left: 10px;
+	display: flex;
+}
+
+.Discription {
+	text-align: left;
+	color: #808080;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: 2px;
+	width: 300;
+}
+
+.s {
+	background-color: #dffaf3;
+	color: #00ab82;
+	font-family: Arial;
+	font-size: 13.5px;
+}
+
+.ns {
+background-color: #f2f2f2;
+	color: #666666;
+	font-family: Arial;
+	font-size: 13.5px;
+}
+
+.arrow {
+	height: 10px;
+	width: 10px;	
+}
+
+.JOBimg {
+	display: flex;
+	align-items: center;
+
+}
