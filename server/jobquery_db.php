@@ -11,7 +11,7 @@
 
 
 	// if we're in production...
-	if(getcwd() == "/home/robkshar/jobquery.org") {
+	if(getcwd() == "/home/robkshar/jobquery.org" || getcwd() == "/home/robkshar/m.jobquery.org" ) {
 
 		$server = "localhost";
 		$user 	= "robkshar_mtnbun";

@@ -5,6 +5,7 @@
 	<title>Job Query-Home</title>
 	<!-- <link href="client/css/mobile.css" rel="stylesheet" /> -->
 	<link href="client/css/header.css?v=<?php echo time();?>" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="sticky_header">
